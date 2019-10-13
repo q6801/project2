@@ -1,7 +1,14 @@
 <template>
+  <div class="container">
+    <home></home>
+  </div>
 </template>
 
 <script>
-  export default {
-  }
+import home from '@/views/Home.vue'
+export default {
+    components: {
+      home,
+    }
+}
 </script>
